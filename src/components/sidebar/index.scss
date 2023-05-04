@@ -83,6 +83,12 @@
             }
         }
 
+        a.project-link{
+            &::after{
+                content: 'Projects';
+            }
+        }
+
         a.contact-link{
             &::after{
                 content: 'Contact';
