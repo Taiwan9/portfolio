@@ -104,3 +104,39 @@
       margin: auto;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .home-page {
+      width: 100%;
+      left: 5%;
+      overflow: hidden;
+      .text-zone{
+        margin-top: 15%;
+        width: 100%;
+        h1{
+          width: 100%;
+          font-size: 3.6rem;
+          text-align: center;
+        }
+        h2{
+          text-align: center;
+        }
+      }
+      .solid-logo{
+        display: none;
+      }
+
+     .flat-button{
+        display: block;
+        text-align: center;
+        width: 60%;
+      }
+
+      a{
+        margin-left: 50px;
+        text-align: center;
+        width: 60%;
+      }
+    }
+
+  }

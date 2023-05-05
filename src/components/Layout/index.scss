@@ -91,3 +91,33 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+
+.about-page,
+.project-page,
+.contact-page{
+    overflow: hidden;
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        width: 80%;
+    
+
+        h1 {
+            font-size: 23px;
+            text-align: center;
+      
+        }
+
+        p{
+            font-style: 13px;
+            color: #181818;
+            text-align: center;
+            width: 50%;
+        }
+    }
+
+}
+
+}
