@@ -20,23 +20,23 @@ const About = () => {
             <div className="container about-page">
                 <div className="text-zone">
                         <h1>
-                            <AnimatedLetters strArray={['A','b','o','u','t',' ','m','e']}
+                            <AnimatedLetters strArray={['S','o','b','r','e',' ','m','i','n']}
                                 idx={15}
                                 letterClass={letterClass}></AnimatedLetters>
                         </h1>
                         <p>
-                    I'm a very ambitious front-end developer looking for a role in an
-                    established IT company with the opportunity to work with the latest
-                    technologies on challenging and diverse projects.
+                        Sou um desenvolvedor Fullstack muito ambicioso procurando uma função em uma empresa
+                        de TI, com a oportunidade de trabalhar com as tecnologias mais recentes 
+                        em projetos desafiadores e diversificados.
                     </p>
                     <p align="LEFT">
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+                    Sou tranquilo, confiante, senso de liderança flexível, adaptável e 
+                    naturalmente curioso e sempre trabalhando para melhorar
+                    minhas habilidades, um problema de design por vez.
                         </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!
+                    Se eu precisar me definir em uma frase, seria uma pessoa de carater, honra,
+                    sempre disposto, fanático por esportes principalmente luta e academia, entusiasta de games e obcecado por tecnologia!!!
                     </p>
                 </div>
 

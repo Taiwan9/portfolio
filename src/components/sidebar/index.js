@@ -1,7 +1,6 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
-import LogoS from '../../assets/img/logo-s.png'
-import LogoSubtitle from '../../assets/img/logo_sub.png'
+import LogoS from '../../assets/img/T-home.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCode, faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
@@ -9,7 +8,7 @@ const Sidebar = ()=>(
     <div className ="nav-bar">
         <Link className='logo' to='/'>
             <img src={LogoS} alt='logo'></img>
-            <img className='sub-logo' src={LogoSubtitle} alt='slobodan'></img>
+            <p>Taiwan</p>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to='/'>
@@ -45,7 +44,7 @@ const Sidebar = ()=>(
 
             <li>
                 <a target='_blank' rel='noreferrer'
-                 href='/'>
+                 href='https://web.whatsapp.com/send?phone=55219779342465'>
                     <FontAwesomeIcon icon={faWhatsapp} color='#4d4d4e'></FontAwesomeIcon>
                 </a>
             </li>

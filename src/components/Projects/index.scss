@@ -1,6 +1,22 @@
 .project-page{
+    margin-top: -10%;
 
     .card-project{
-        background: #1e1e1e;
+        margin: 2% 2%;
+        display:flex;
+        right: 10%;
+        position: absolute;
+        left: 12%;
+
+        .card{
+            color: white;
+            width: 100%;
+            background: #1f1f1f;
+            margin: 1% 1%;
+            margin-top:36%;
+            border: 1px solid rgba(24,24,24, 0.4);
+
+        }
     }
+
 }

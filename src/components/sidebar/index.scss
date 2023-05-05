@@ -8,19 +8,26 @@
     min-height: 500px;
 
     .logo{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
         display: block;
         padding: 8px 0;
+
+
+        p{
+            text-align: center;
+        }
     }
 
     img{
         display: block;
         margin: 8px auto;
-        width: 24px;
+        width: 64px;
         height: auto;
-
-        &.sub-logo{
-            width: 70px;
-        }
     }
 
 
@@ -60,7 +67,7 @@
 
             &:after{
                 content: '';
-                font-size: 9px;
+                font-size: 14px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -73,25 +80,25 @@
 
             &:first-child{
                 &::after{
-                    content: 'Home';
+                    content: 'Início';
                 }
             }
         }
         a.about-link{
             &::after{
-                content: 'About';
+                content: 'Sobre';
             }
         }
 
         a.project-link{
             &::after{
-                content: 'Projects';
+                content: 'Projetos';
             }
         }
 
         a.contact-link{
             &::after{
-                content: 'Contact';
+                content: 'Contatos';
             }
         }
 

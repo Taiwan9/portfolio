@@ -7,14 +7,7 @@ const Layout = ()=>{
         <div className='App'>
             <Sidebar/>
             <div className='page'>
-                <span className='tags top-tags'>&lt;body&gt;</span>
-
                 <Outlet></Outlet>
-
-                <span className='tags botton-tags'>&lt;body&gt;
-                    <br/>
-                    <span className='botton-tag-html'>&lt;html&gt;</span>
-                </span>
             </div>
         </div>
     )

@@ -7,7 +7,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import imageCard from '../../assets/img/logoName.png'
+import imageCard from '../../assets/img/portfolio.png'
+import imageCard2 from '../../assets/img/pixel-img.png'
+import imageCard3 from '../../assets/img/projeto5.png'
+import Loader from 'react-loaders';
 
 const Project = () =>{
 
@@ -24,38 +27,81 @@ const Project = () =>{
             <div className="container project-page">
                 <div className="text-zone">
                         <h1>
-                            <AnimatedLetters strArray={['P','r','o','j','e','c','t','s']}
+                            <AnimatedLetters strArray={['P','r','o','j','e','t','o','s']}
                                 idx={15}
                                 letterClass={letterClass}></AnimatedLetters>
                         </h1>
                         <p>
-                    I'm a very ambitious front-end developer looking for a role in an
-                    established IT company with the opportunity to work with the latest
-                    technologies on challenging and diverse projects.
+                   Aqui estão alguns dos meus projetos, pessoais e profissionais, o que me permitiram
+                   aprimorar ainda mais as minhas técnicas e habilidades tanto individual quanto em equipe
+                   <h4>Vamos fazer algo incrível juntos</h4>
                     </p>
-
-                    <Card sx={{ maxWidth: 345 }} className='card-project'>
+                </div>
+                <div className='card-project'>
+                    
+                <Card sx={{ maxWidth: 345 }} className='card'>
                     <CardMedia
                         sx={{ height: 140 }}
                         image={imageCard}
-                        title="Project-01"
+                        title="Portfolio"
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                        <Typography gutterBottom variant="h4" component="div">
+                        Porfolio
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        <Typography sx={{ fontSize: 13 }} variant="body2" color="text">
+                        Projeto realizado em React com o propósito de  aplicar meus conhecimentos
+                        e divulgar meus trabalhos.
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Share</Button>
-                        <Button size="small">Learn More</Button>
+                        <Button size="medium"  href='https://github.com/' target="_blank">Site</Button>
+                        <Button size="medium"  href='https://github.com/Taiwan9/portfolio' target="_blank">Repositório</Button>
+                    </CardActions>
+                    </Card>
+                <Card sx={{ maxWidth: 345 }} className='card'>
+                    <CardMedia
+                        sx={{ height: 140 }}
+                        image={imageCard2}
+                        title="Projeto-01"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                            Projeto E-commerce
+                        </Typography>
+                        <Typography sx={{ fontSize: 13 }} variant="body2" color="text">
+                        Projeto realizado em equipe com o propósito de  aplicar meus conhecimentos, esse projeto
+                        foi pensado em imitar a realidade de um dev profissional.
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="medium"  href=' https://pixelplay-store.netlify.app/' target="_blank">Site</Button>
+                        <Button size="medium"  href='https://github.com/Marcos9868/pp_ecommerce_front' target="_blank">Repositório</Button>
+                    </CardActions>
+                    </Card>
+                <Card sx={{ maxWidth: 345 }} className='card'>
+                    <CardMedia
+                        sx={{ height: 140 }}
+                        image={imageCard3}
+                        title="Project-01"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h4" component="div">
+                        Projeto-05
+                        </Typography>
+                        <Typography sx={{ fontSize: 13 }} variant="body2" color="text">
+                        Projeto realizado em HTML e CSS, um site de paginação responsiva completa
+                        em breve será atualizada aplicando o JavaScript
+                        </Typography>
+                    </CardContent>
+                    <CardActions>
+                        <Button size="large"  href='https://taiwan9.github.io/Projeto-05/' target="_blank">Site</Button>
+                        <Button size="large"  href='https://github.com/Taiwan9/Projeto-05' target="_blank">Repositório</Button>
                     </CardActions>
                     </Card>
                 </div>
             </div>
+            <Loader type="pacman"></Loader>
         </>
     )
 }

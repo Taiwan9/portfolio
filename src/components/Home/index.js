@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/img/logo-s.png'
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import Loader from 'react-loaders'
+import pdfCurrilulo from '../../assets/pdf/curriculo-ti.pdf'
 
 const Home =()=>{
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['l','o','b','o','d','a','n']
-    const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
+    const nameArray = ['a','i','w','a','n',]
+    const jobArray = ['F','u','l','l','S','t','a','c','k',' ','d','e','v','e','l','o','p','e','r','.']
 
     useEffect(() => {
         setTimeout(() => {
@@ -22,31 +22,30 @@ const Home =()=>{
         <div className="container home-page">
           <div className="text-zone">
             <h1>
-              <span className={letterClass}>H</span>
-              <span className={`${letterClass} _12`}>i,</span>
+              <span className={letterClass}>Oi, </span>
               <br />
-              <span className={`${letterClass} _13`}>I</span>
-              <span className={`${letterClass} _14`}>'m</span>
-              <img
-                src={LogoTitle}
-                alt="JavaScript Developer Name, Web Developer Name"
-              />
+              <span className={`${letterClass} _12`}>Eu</span>
+              <span className={`${letterClass} _12`}></span>
+              <span className={`${letterClass} _13`}>sou</span>
+              <span className={`${letterClass} _13`}></span>
+              <span className={`${letterClass} _14`}>T</span>
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={nameArray}
-                idx={15}
+                idx={16}
               />
               <br />
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={jobArray}
-                idx={22}
+                idx={16}
               />
             </h1>
-            <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+            <h2>Dev. Front-end / JavaScript / Node / TypeScript</h2>
             <Link to="/contact" className="flat-button">
-              CONTACT ME
+              Contato
             </Link>
+              <a href={pdfCurrilulo} rel='noreferrer' target='_blank'>Curriculo</a>
           </div>
           <Logo/>
         </div>
