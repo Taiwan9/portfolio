@@ -1,6 +1,6 @@
 import './index.scss'
 import LogoS from '../../../assets/img/meCartoon2.jpeg'
-import { useEffect, useRef } from 'react'
+import { useEffect} from 'react'
 
 const  Logo = ()=> {
 
