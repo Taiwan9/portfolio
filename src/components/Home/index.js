@@ -19,7 +19,7 @@ const Home =()=>{
 
     return(
         <>
-        <div className="container home-page">
+        <div className="container home-page" onEncrypted={pdfCurrilulo}>
           <div className="text-zone">
             <h1>
               <span className={letterClass}>Oi, </span>
