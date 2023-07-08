@@ -21,31 +21,30 @@
 
 }
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width:568px){
     .project-page{
-        margin-top: -40%;
-        overflow: auto;
-    
-        .card-project{
-            width: 100%;
-            margin: 2% 2%;
-            right: 10%;
-            left: 4%;
-            display: block;
-            top: 53%;
-    
-            .card{
-                color: white;
-                width: 100%;
-                background: #1f1f1f;
-                margin: 1% 1%;
-                border: 1px solid rgba(24,24,24, 0.4);
-                display: block;
-                grid-template-rows: 100px;
-    
-            }
+        overflow: scroll;
+        position: fixed;
+
+        .mob-text-zone{
+            position: fixed;
         }
     
+    
+    .card-project{
+        display: inline-block;
+        padding-top: 95%;
+        margin: 1% 1%;
+        width: 70%;
+
+        .card{
+            top: 80%;
+            bottom: 10px;
+        }
     }
+}
+
+
+
+
 }

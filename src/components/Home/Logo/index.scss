@@ -4,7 +4,7 @@
     height: 609px;
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 5%;
     bottom: 0;
 
     .solid-logo{
@@ -17,5 +17,11 @@
         width: 100%;
         opacity: 1;
         z-index: 1;
+    }
+}
+
+@media screen and (max-width:580px){
+    .logo-container{
+        display: none;
     }
 }

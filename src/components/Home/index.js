@@ -41,10 +41,7 @@ const Home =()=>{
                 idx={16}
               />
             </h1>
-            <h2>Dev. Front-end / JavaScript / Node / TypeScript</h2>
-            <Link to="/contact" className="flat-button">
-              Contato
-            </Link>
+            <h2>React / React Native / Node / TypeScript</h2>
               <a href={pdfCurrilulo} rel='noreferrer' target='_blank'>Curriculo</a>
           </div>
           <Logo/>

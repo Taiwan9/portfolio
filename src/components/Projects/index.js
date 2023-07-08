@@ -25,7 +25,7 @@ const Project = () =>{
     return(
         <>
             <div className="container project-page">
-                <div className="text-zone">
+                <div className="text-zone mob-text-zone">
                         <h1>
                             <AnimatedLetters strArray={['P','r','o','j','e','t','o','s']}
                                 idx={15}
@@ -33,8 +33,8 @@ const Project = () =>{
                         </h1>
                         <p>
                    Aqui estão alguns dos meus projetos, pessoais e profissionais, o que me permitiram
-                   aprimorar ainda mais as minhas técnicas e habilidades tanto individual quanto em equipe
-                   <h4>Vamos fazer algo incrível juntos</h4>
+                   aprimorar ainda mais as minhas técnicas e habilidades tanto individual quanto em equipe.
+                   <h4>Vamos fazer algo incrível juntos:</h4>
                     </p>
                 </div>
                 <div className='card-project'>
@@ -91,7 +91,7 @@ const Project = () =>{
                         </Typography>
                         <Typography sx={{ fontSize: 13 }} variant="body2" color="text">
                         Projeto realizado em HTML e CSS, um site de paginação responsiva completa
-                        em breve será atualizada aplicando o JavaScript
+                        em breve será atualizada aplicando o JavaScript.
                         </Typography>
                     </CardContent>
                     <CardActions>

@@ -18,16 +18,18 @@ const About = () => {
     return (
         <>
             <div className="container about-page">
-                <div className="text-zone">
+                <div className="text-zone about-text-zone">
                         <h1>
                             <AnimatedLetters strArray={['S','o','b','r','e',' ','m','i','n']}
                                 idx={15}
                                 letterClass={letterClass}></AnimatedLetters>
                         </h1>
                         <p>
-                        Sou um desenvolvedor Fullstack muito ambicioso procurando uma função em uma empresa
-                        de TI, com a oportunidade de trabalhar com as tecnologias mais recentes 
-                        em projetos desafiadores e diversificados.
+                        Sou um desenvolvedor Fullstack muito ambicioso com experiência no mercado
+                        de TI, trabalho com as tecnologias mais recentes e de qualidades do mercado tanto no frontend
+                        quanto no backend domino front end com HTMl, CSS, JavaScript, React, React-native, Nodejs,
+                        Banco de Dados relacionais e não relacionais e uma ótima logica de programção e pensamento analítico sobre
+                        todos os casos.
                     </p>
                     <p align="LEFT">
                     Sou tranquilo, confiante, senso de liderança flexível, adaptável e 
