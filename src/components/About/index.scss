@@ -30,9 +30,15 @@
     }
 
     @media screen and (max-width:568px){
-        .about-text-zone{
-          margin-top: -40px;
-          height: 70%;
+      
+        height: 100%;
+      
+        .mob-text-zone{
+          max-height: 100%;
+          overflow: scroll;
+          h1{
+            margin-top: 8.4rem;
+          }
         }
         .stage-cube-cont{
           display: none;

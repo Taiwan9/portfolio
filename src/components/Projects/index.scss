@@ -29,17 +29,20 @@
         .mob-text-zone{
             position: fixed;
         }
+        top: -73px;
     
     
     .card-project{
         display: inline-block;
-        padding-top: 95%;
+        margin-top: 98%;
+        bottom: 50px;
         margin: 1% 1%;
-        width: 70%;
+        width: 85%;
+        max-height: 30%;
+        left: 23px;
 
         .card{
-            top: 80%;
-            bottom: 10px;
+            margin-top: 6%;
         }
     }
 }
