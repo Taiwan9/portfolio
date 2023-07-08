@@ -18,7 +18,7 @@ const About = () => {
     return (
         <>
             <div className="container about-page">
-                <div className="text-zone about-text-zone">
+                <div className="text-zone about-text-zone mob-text-zone">
                         <h1>
                             <AnimatedLetters strArray={['S','o','b','r','e',' ','m','i','n']}
                                 idx={15}
