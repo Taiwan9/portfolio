@@ -132,16 +132,14 @@
     .nav-bar{
         position: fixed;
         height: 60px;
-        bottom: 0;
         width: 100%;
         transform: translateY(calc(100vh - 100%));
-        overflow: hidden;
 
         nav{
             display: flex;
             position: absolute;
             justify-content: space-around;
-            top: 125px;
+            top: 12.5rem;
         }
 
         .logo{
